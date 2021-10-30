@@ -1,8 +1,9 @@
 class RecipeCard extends HTMLElement {
   constructor() {
     // Part 1 Expose - TODO
-
+    super();
     // You'll want to attach the shadow DOM here
+    this.attachShadow({mode: 'open'});
   }
 
   set data(data) {
@@ -10,7 +11,7 @@ class RecipeCard extends HTMLElement {
     const styleElem = document.createElement('style');
     const styles = `
       * {
-        font-family: sans-serif;
+        font-family: sans-serif; 
         margin: 0;
         padding: 0;
       }
@@ -98,8 +99,17 @@ class RecipeCard extends HTMLElement {
 
     // Make sure to attach your root element and styles to the shadow DOM you
     // created in the constructor()
+    
 
     // Part 1 Expose - TODO
+    
+    console.log(data);
+    
+
+    
+
+
+    this.shadowRoot.append(styleElem, card);
   }
 }
 
