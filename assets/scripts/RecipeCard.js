@@ -105,7 +105,42 @@ class RecipeCard extends HTMLElement {
     
     console.log(data);
     
+    const recipeImg = document.createElement('img');
+    recipeImg.setAttribute('src', 'img_Src.png');
+    recipeImg.setAttribute('alt', 'Recipe Title');
+    card.appendChild(recipeImg);
 
+    const title = document.createElement('p');
+    title.setAttribute('class','title')
+
+    const titleLink = document.createElement('a');
+    titleLink.setAttribute('href', 'link to article');
+    titleLink.appendChild(document.createTextNode("Title"));
+
+    title.appendChild(titleLink);
+    card.appendChild(title);
+
+
+    const organize = document.createElement('p');
+    organize.setAttribute('class', 'organization');
+    organize.appendChild(document.createTextNode("The Chef's Organization"));
+
+    const rating = document.createElement('div');
+    rating.setAttribute('class', 'rating');
+
+    const ratingNum = document.createElement('span');
+    ratingNum.appendChild(document.createTextNode('5'));
+
+    const starsImg = document.createElement('img');
+    //starsImg.setAttribute('src', '/assets/images/icons/5-star.svg');
+    starsImg.src = '/assets/images/icons/5-star.svg';
+    starsImg.setAttribute('alt', '5 Stars');
+
+    
+    rating.appendChild(starsImg);
+    rating.appendChild(ratingNum);
+    organize.appendChild(rating);
+    card.appendChild(organize);
     
 
 
