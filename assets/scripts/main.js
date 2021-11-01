@@ -6,9 +6,9 @@ const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
-  './assets/recipes/halloween-cookie-bars.json',
-  './assets/recipes/pumpkin-hand-pies.json',
-  './assets/recipes/halloween-layer-cake.json',
+  'assets/recipes/halloween-cookie-bars.json',
+  'assets/recipes/pumpkin-hand-pies.json',
+  'assets/recipes/halloween-layer-cake.json',
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -133,7 +133,7 @@ function bindShowMore() {
       for(var i = 3; i < recipes.length; i++){
         main.removeChild(main.children[3]);
       }
-      
+
     }
 
   })
