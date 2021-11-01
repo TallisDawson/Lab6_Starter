@@ -1,0 +1,224 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://thisdelicioushouse.com/#organization",
+      "name": "This Delicious House",
+      "url": "https://thisdelicioushouse.com/",
+      "sameAs": [
+        "http://facebook.com/thisdelicioushouse",
+        "http://instagram.com/thisdelicioushouse",
+        "http://pinterest.com/thisdelicioushouse",
+        "https://twitter.com/DeliciousHouse5"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://thisdelicioushouse.com/#logo",
+        "inLanguage": "en-US",
+        "url": "https://thisdelicioushouse.com/wp-content/uploads/2018/10/IMG_0161.jpg",
+        "contentUrl": "https://thisdelicioushouse.com/wp-content/uploads/2018/10/IMG_0161.jpg",
+        "width": 518,
+        "height": 530,
+        "caption": "This Delicious House"
+      },
+      "image": { "@id": "https://thisdelicioushouse.com/#logo" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://thisdelicioushouse.com/#website",
+      "url": "https://thisdelicioushouse.com/",
+      "name": "This Delicious House",
+      "description": "Delicious and Easy Recipes You&#039;ll Crave!",
+      "publisher": { "@id": "https://thisdelicioushouse.com/#organization" },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://thisdelicioushouse.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://thisdelicioushouse.com/wp-content/uploads/2018/10/fullsizeoutput_123f.jpeg",
+      "contentUrl": "https://thisdelicioushouse.com/wp-content/uploads/2018/10/fullsizeoutput_123f.jpeg",
+      "width": 1355,
+      "height": 1200,
+      "caption": "Halloween Cookie Bars"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#webpage",
+      "url": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/",
+      "name": "Halloween Cookie Bars | Easy Fun! - This Delicious House",
+      "isPartOf": { "@id": "https://thisdelicioushouse.com/#website" },
+      "primaryImageOfPage": {
+        "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#primaryimage"
+      },
+      "datePublished": "2018-10-29T18:20:42+00:00",
+      "dateModified": "2021-09-03T17:35:18+00:00",
+      "description": "Halloween Cookie Bars with Chocolate Chips are and easy and fun recipe to make for Halloween. Easy to make with just a few ingredients!\u00a0",
+      "breadcrumb": {
+        "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Recipes",
+          "item": "https://thisdelicioushouse.com/category/recipes/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Halloween Cookie Bars | Easy Fun!"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#article",
+      "isPartOf": {
+        "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#webpage"
+      },
+      "author": {
+        "@id": "https://thisdelicioushouse.com/#/schema/person/6b210cd73508a0f54b44009bf53c5363"
+      },
+      "headline": "Halloween Cookie Bars | Easy Fun!",
+      "datePublished": "2018-10-29T18:20:42+00:00",
+      "dateModified": "2021-09-03T17:35:18+00:00",
+      "wordCount": 632,
+      "commentCount": 6,
+      "publisher": { "@id": "https://thisdelicioushouse.com/#organization" },
+      "image": {
+        "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#primaryimage"
+      },
+      "thumbnailUrl": "https://thisdelicioushouse.com/wp-content/uploads/2018/10/fullsizeoutput_123f.jpeg",
+      "keywords": ["Cookie Bars", "Halloween"],
+      "articleSection": ["Desserts &amp; Treats", "Recipes"],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#respond"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://thisdelicioushouse.com/#/schema/person/6b210cd73508a0f54b44009bf53c5363",
+      "name": "Angela Allison",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://thisdelicioushouse.com/#personlogo",
+        "inLanguage": "en-US",
+        "url": "https://secure.gravatar.com/avatar/0530604541efdb7a0076ce49ce5c956e?s=96&r=g",
+        "contentUrl": "https://secure.gravatar.com/avatar/0530604541efdb7a0076ce49ce5c956e?s=96&r=g",
+        "caption": "Angela Allison"
+      },
+      "sameAs": [
+        "https://thisdelicioushouse.com/make-ahead-recipes/",
+        "https://twitter.com/casey@mediawyse.com"
+      ]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Halloween Cookie Bars",
+      "author": { "@type": "Person", "name": "Angela Allison" },
+      "description": "These spooky fun Halloween Cookie Bars are so easy to make! Swap out the toppings and serve year round for any occasion.&nbsp;",
+      "datePublished": "2018-10-29T11:20:42+00:00",
+      "image": [
+        "https://thisdelicioushouse.com/wp-content/uploads/2018/10/fullsizeoutput_123f.jpeg",
+        "https://thisdelicioushouse.com/wp-content/uploads/2018/10/fullsizeoutput_123f-500x500.jpeg",
+        "https://thisdelicioushouse.com/wp-content/uploads/2018/10/fullsizeoutput_123f-500x375.jpeg",
+        "https://thisdelicioushouse.com/wp-content/uploads/2018/10/fullsizeoutput_123f-480x270.jpeg"
+      ],
+      "recipeYield": ["24", "24 bars"],
+      "prepTime": "PT10M",
+      "cookTime": "PT30M",
+      "totalTime": "PT40M",
+      "recipeIngredient": [
+        "\u00bd cup butter",
+        "1 \u00bd cups brown sugar",
+        "2 large eggs",
+        "1 teaspoon vanilla",
+        "1 \u00bd cups flour",
+        "\u00bd teaspoon baking powder",
+        "\u00bd teaspoon salt",
+        "1 \u00bd cups chocolate chips",
+        "\u00bc cup chocolate chips",
+        "orange cookie frosting ((could substitute melted white chocolate chips and orange food coloring))",
+        "20-25  candy eyes",
+        "chocolate sprinkles, optional"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Preheat oven to 350 degrees. Coat a 9 x 13 inch baking pan with cooking spray and parchment paper.&nbsp;",
+          "name": "Preheat oven to 350 degrees. Coat a 9 x 13 inch baking pan with cooking spray and parchment paper.&nbsp;",
+          "url": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#wprm-recipe-3545-step-0-0"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "In a large bowl microwave safe bowl, melt butter on high for about a minute. Mix in the brown sugar, eggs, and vanilla and stir to combine. Stir in the flour, baking powder, and salt until well combined. Fold in the chips. Pour the mixture into the pan using a rubber spatula to spread.&nbsp;",
+          "name": "In a large bowl microwave safe bowl, melt butter on high for about a minute. Mix in the brown sugar, eggs, and vanilla and stir to combine. Stir in the flour, baking powder, and salt until well combined. Fold in the chips. Pour the mixture into the pan using a rubber spatula to spread.&nbsp;",
+          "url": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#wprm-recipe-3545-step-0-1"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake for 30-35 minutes, until toothpick inserted in middle comes out clean. (If the edges start to brown, cover the top of the pan with a loose piece of foil.) Cool in pan on a wire rack then transfer to refrigerator to cool completely before removing from pan.&nbsp;",
+          "name": "Bake for 30-35 minutes, until toothpick inserted in middle comes out clean. (If the edges start to brown, cover the top of the pan with a loose piece of foil.) Cool in pan on a wire rack then transfer to refrigerator to cool completely before removing from pan.&nbsp;",
+          "url": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#wprm-recipe-3545-step-0-2"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "For the topping, microwave the chocolate chips on low heat until melted, stopping to stir every 30 seconds. Drizzle melted chocolate and cookie frosting over top of blondie bars and decorate with candy eyes and sprinkles.&nbsp;",
+          "name": "For the topping, microwave the chocolate chips on low heat until melted, stopping to stir every 30 seconds. Drizzle melted chocolate and cookie frosting over top of blondie bars and decorate with candy eyes and sprinkles.&nbsp;",
+          "url": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#wprm-recipe-3545-step-0-3"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "5"
+      },
+      "recipeCategory": ["Dessert"],
+      "recipeCuisine": ["American"],
+      "keywords": "Halloween Cookie Bars",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "214 kcal",
+        "servingSize": "1 serving"
+      },
+      "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#recipe",
+      "isPartOf": {
+        "@id": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#article"
+      },
+      "mainEntityOfPage": "https://thisdelicioushouse.com/halloween-cookie-bars-easy-fun/#webpage"
+    }
+  ]
+}

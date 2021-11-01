@@ -1,0 +1,243 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.mygorgeousrecipes.com/#organization",
+      "name": "My Gorgeous Recipes",
+      "url": "https://www.mygorgeousrecipes.com/",
+      "sameAs": [
+        "https://www.facebook.com/gorgeousrecipes/",
+        "https://www.instagram.com/mygorgeousrecipes/",
+        "https://www.pinterest.com/mygorgeousrecipes/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.mygorgeousrecipes.com/#logo",
+        "inLanguage": "en-US",
+        "url": "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2019/06/MGR-Logo-Final-300X300.png",
+        "contentUrl": "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2019/06/MGR-Logo-Final-300X300.png",
+        "width": 300,
+        "height": 283,
+        "caption": "My Gorgeous Recipes"
+      },
+      "image": { "@id": "https://www.mygorgeousrecipes.com/#logo" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.mygorgeousrecipes.com/#website",
+      "url": "https://www.mygorgeousrecipes.com/",
+      "name": "My Gorgeous Recipes",
+      "description": "You don&#039;t have to be master chef to cook a delicious meal. Browse dozens of easy-to-make family recipes made in a snap with simple ingredients. Believe in yourself. I&#039;ll show you how!",
+      "publisher": { "@id": "https://www.mygorgeousrecipes.com/#organization" },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.mygorgeousrecipes.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2018/09/Jack-OLantern-Pumpkin-Hand-Pies-11.jpg",
+      "contentUrl": "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2018/09/Jack-OLantern-Pumpkin-Hand-Pies-11.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#webpage",
+      "url": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/",
+      "name": "Jack-O'-Lantern Pumpkin Hand Pies - My Gorgeous Recipes",
+      "isPartOf": { "@id": "https://www.mygorgeousrecipes.com/#website" },
+      "primaryImageOfPage": {
+        "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#primaryimage"
+      },
+      "datePublished": "2020-09-30T11:16:29+00:00",
+      "dateModified": "2020-09-30T11:15:20+00:00",
+      "description": "Jack-O'-Lantern Pumpkin Hand Pies, some delicious Halloween treats that you must try this Fall. Super easy and fun to make.",
+      "breadcrumb": {
+        "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mygorgeousrecipes.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Desserts",
+          "item": "https://www.mygorgeousrecipes.com/category/desserts/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jack-O'-Lantern Pumpkin Hand Pies"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#article",
+      "isPartOf": {
+        "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#webpage"
+      },
+      "author": {
+        "@id": "https://www.mygorgeousrecipes.com/#/schema/person/96458c86a49be7ea0d19e452b119fa19"
+      },
+      "headline": "Jack-O'-Lantern Pumpkin Hand Pies",
+      "datePublished": "2020-09-30T11:16:29+00:00",
+      "dateModified": "2020-09-30T11:15:20+00:00",
+      "wordCount": 779,
+      "commentCount": 0,
+      "publisher": { "@id": "https://www.mygorgeousrecipes.com/#organization" },
+      "image": {
+        "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#primaryimage"
+      },
+      "thumbnailUrl": "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2018/09/Jack-OLantern-Pumpkin-Hand-Pies-11.jpg",
+      "keywords": ["fall", "halloween", "pies", "pumpkin", "thanksgiviing"],
+      "articleSection": ["Desserts", "Halloween and Thanksgiving Recipes"],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#respond"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.mygorgeousrecipes.com/#/schema/person/96458c86a49be7ea0d19e452b119fa19",
+      "name": "Daniela Apostol",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.mygorgeousrecipes.com/#personlogo",
+        "inLanguage": "en-US",
+        "url": "https://secure.gravatar.com/avatar/57f78dbefb651b823f05ba32d0b74433?s=96&d=mm&r=g",
+        "contentUrl": "https://secure.gravatar.com/avatar/57f78dbefb651b823f05ba32d0b74433?s=96&d=mm&r=g",
+        "caption": "Daniela Apostol"
+      },
+      "description": "Hi! I\u2019m Daniela, the blogger behind My Gorgeous Recipes, welcome to my kitchen! I absolutely love cooking and baking. I love good food that is healthy (and not so healthy), delicious and nutritious.",
+      "sameAs": [
+        "https://www.mygorgeousrecipes.com",
+        "https://www.facebook.com/gorgeousrecipes/",
+        "https://www.pinterest.co.uk/mygorgeousrecipes/",
+        "http://mygorgeousrecipes.tumblr.com/"
+      ]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Jack-O'-Lantern Pumpkin Hand Pies",
+      "author": { "@type": "Person", "name": "Daniela Apostol" },
+      "description": "Jack-O&#039;-Lantern Pumpkin Hand Pies, some delicious Halloween treats that you must try this Fall. Super easy and fun to make, these pumpkin hand pies will be a big hit with everyone, from little to big ones. The pumpkin filling is absolutely delicious, and the golden and flaky puff pastry adds a fantastic texture. What a Halloween treat!",
+      "datePublished": "2020-09-30T11:16:29+00:00",
+      "image": [
+        "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2018/09/Jack-OLantern-Pumpkin-Hand-Pies-11.jpg",
+        "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2018/09/Jack-OLantern-Pumpkin-Hand-Pies-11-500x500.jpg",
+        "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2018/09/Jack-OLantern-Pumpkin-Hand-Pies-11-500x375.jpg",
+        "https://i2.wp.com/mygorgeousrecipes.com/wp-content/uploads/2018/09/Jack-OLantern-Pumpkin-Hand-Pies-11-480x270.jpg"
+      ],
+      "recipeYield": ["16", "16 pies"],
+      "prepTime": "PT15M",
+      "cookTime": "PT25M",
+      "totalTime": "PT40M",
+      "recipeIngredient": [
+        "1 cup pumpkin puree",
+        "1  block of puff pastry  ((500 g, 1 lb))",
+        "3 tbsp brown sugar",
+        "1 tsp ground cinnamon",
+        "1 tsp pumpkin pie spice mix"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Pre-heat the oven at 180 degrees Celsius (350 Fahrenheit).",
+          "name": "Pre-heat the oven at 180 degrees Celsius (350 Fahrenheit).",
+          "url": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#wprm-recipe-9279-step-0-0"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Mix the pumpkin puree with the sugar and spices.",
+          "name": "Mix the pumpkin puree with the sugar and spices.",
+          "url": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#wprm-recipe-9279-step-0-1"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Roll the puff pastry, and use pumpkin cookie cutters or a sharp knife to cut out pumpkin shapes, half of them being just the shape of a pumpkin, and the other half the shape of a carved pumpkin.",
+          "name": "Roll the puff pastry, and use pumpkin cookie cutters or a sharp knife to cut out pumpkin shapes, half of them being just the shape of a pumpkin, and the other half the shape of a carved pumpkin.",
+          "url": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#wprm-recipe-9279-step-0-2"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Spread about half a teapoon of the pumpkin mixture on the bottom pumpkin shape, then top it with the carved pumpkin shape, and press gently on the edges to seal.",
+          "name": "Spread about half a teapoon of the pumpkin mixture on the bottom pumpkin shape, then top it with the carved pumpkin shape, and press gently on the edges to seal.",
+          "url": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#wprm-recipe-9279-step-0-3"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Repeat with the rest of the puff pastry and pumpkin mixuture.",
+          "name": "Repeat with the rest of the puff pastry and pumpkin mixuture.",
+          "url": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#wprm-recipe-9279-step-0-4"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake in the oven for about 15 minutes or until golden.",
+          "name": "Bake in the oven for about 15 minutes or until golden.",
+          "url": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#wprm-recipe-9279-step-0-5"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+      },
+      "recipeCategory": ["Dessert"],
+      "recipeCuisine": ["Romanian"],
+      "keywords": "halloween treats",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "99 kcal",
+        "carbohydrateContent": "11 g",
+        "proteinContent": "1 g",
+        "fatContent": "6 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "40 mg",
+        "fiberContent": "1 g",
+        "sugarContent": "3 g",
+        "servingSize": "1 serving"
+      },
+      "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#recipe",
+      "isPartOf": {
+        "@id": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#article"
+      },
+      "mainEntityOfPage": "https://www.mygorgeousrecipes.com/jack-o-lantern-pumpkin-hand-pies/#webpage"
+    }
+  ]
+}

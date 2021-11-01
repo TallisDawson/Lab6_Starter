@@ -1,0 +1,114 @@
+{
+  "@graph": [
+    {
+      "@type": "Question",
+      "text": "What's your guilty pleasure Halloween candy?",
+      "suggestedAnswer": [
+        { "@type": "Answer", "text": "Candy corn." },
+        { "@type": "Answer", "text": "Reese's Pieces." }
+      ]
+    }
+  ],
+  "@context": "http://schema.org",
+  "url": "https://www.delish.com/cooking/recipe-ideas/a23712647/halloween-layer-cake-recipe/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Delish",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://assets.hearstapps.com/sites/delish/assets/images/logos/logo-jsonld.58eed96.png",
+      "width": 219,
+      "height": 60
+    }
+  },
+  "@type": "Recipe",
+  "author": { "name": "Rian Handler", "@type": "Person" },
+  "datePublished": "2018-10-19T19:50:04.405369Z",
+  "headline": "Halloween Layer Cake",
+  "image": {
+    "@type": "ImageObject",
+    "height": 1000,
+    "thumbnail": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-halloween-cake-horizontal-1539895591.jpg?crop=0.668xw:1.00xh;0.141xw,0&resize=100:*",
+    "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-halloween-cake-horizontal-1539895591.jpg",
+    "width": 1500
+  },
+  "mainEntityOfPage": {
+    "@id": "https://www.delish.com/cooking/recipe-ideas/a23712647/halloween-layer-cake-recipe/",
+    "@type": "WebPage"
+  },
+  "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-halloween-cake-horizontal-1539895591.jpg?crop=0.668xw:1.00xh;0.141xw,0&resize=100:*",
+  "isAccessibleForFree": "False",
+  "hasPart": [
+    {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".content-container"
+    }
+  ],
+  "name": "Halloween Layer Cake",
+  "prepTime": "PT30M",
+  "cookTime": "PT0S",
+  "totalTime": "PT2H",
+  "recipeIngredient": [
+    "<p>Cooking spray, for pans</p>",
+    "1 <p>box Devil's Food cake mix, plus ingredients called for on box</p>",
+    "1 <p>box vanilla cake mix, plus ingredients called for on box</p>",
+    "2 c. <p>(4 sticks) butter, softened</p>",
+    "7 c. <p>powdered sugar, divided</p>",
+    "1/2 c. <p>whole milk</p>",
+    "2 tsp. <p>pure vanilla extract</p>",
+    "2 tsp. <p>pumpkin spice</p>",
+    "<p>Orange food coloring</p>",
+    "1 1/2 c. <p>semisweet chocolate chips</p>",
+    "3/4 c. <p>heavy cream</p>",
+    "<p>Ghost Peeps</p>",
+    "<p>Milano cookies</p>",
+    "<p>Oreos, crushed</p>",
+    "<p>Candy corn</p>",
+    "<p>Candy pumpkins</p>",
+    "<p>Sprinkles</p>",
+    "<p>Candy eyeballs</p>"
+  ],
+  "recipeInstructions": "Preheat oven to 350\u00b0 and spray four 9\" cake pans with cooking spray. In two large bowls using a hand mixer, prepare both chocolate and vanilla cake batter. Divide batter among prepared pans, two chocolate and two vanilla, and bake until a toothpick comes out clean, 30 minutes. Transfer to a wire rack to cool completely. Make frosting: In another large bowl using a hand mixer, beat together butter and half of the powdered sugar until smooth. Beat in the milk, vanilla, pumpkin spice,&nbsp;and the rest of the powdered sugar until light and fluffy. Stir in food coloring until frosting is a bright, jack-o-lantern orange. Make ganache: In a small saucepan over low heat, heat heavy cream just until it bubbles. Place chocolate chips in a medium, heatproof bowl and pour over hot heavy cream. Let sit 2 minutes, then whisk until smooth. Assemble the cake: Level cake layers with a large serrated knife. Place a dab of frosting on a cake plate or serving platter and top with the first vanilla cake layer. Top cake with 1 cup frosting and smooth into an even layer. Add the first chocolate cake on top of that, frost with another cup of frosting, then repeat with remaining vanilla and chocolate layers. Frost outside of cake with remaining frosting. Drip ganache down the sides of the cake, then pour the rest on top of cake and smooth out with an offset spatula. Decorate the cake: Create a&nbsp;graveyard scene by&nbsp;placing ghost peeps on skewers to&nbsp;stick out of cake, break Milanos in half and place on cake like graves, surrounded by Oreo \u201cdirt\u201d, sprinkles, candy corn and pumpkins, and candy eyeballs.",
+  "video": [],
+  "recipeCuisine": ["American"],
+  "aggregateRating": {
+    "@context": "http://schema.org/",
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "worstRating": 1,
+    "bestRating": 5
+  },
+  "review": [
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2019-10-22",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "CyanToast"
+      },
+      "reviewBody": "Mise",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    }
+  ],
+  "recipeCategory": [
+    "nut-free",
+    "vegetarian",
+    "children",
+    "Halloween",
+    "baking",
+    "dessert"
+  ],
+  "recipeYield": "16 servings",
+  "description": "Halloween Cake from Delish.com is where cute meets spooky.",
+  "keywords": "best layer cake, best halloween cake, halloween dessert, fun cake, fun layer cake, decorative cake, festive cake, halloween treat, spooky treats, spooky cake, graveyard cake, orange cake, pumpkin spice frosting, boxed cake mix, easy ganache, chocolate ganache,"
+}

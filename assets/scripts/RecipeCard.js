@@ -103,7 +103,7 @@ class RecipeCard extends HTMLElement {
 
     // Part 1 Expose
     
-    console.log(data);
+    // console.log(data);
     
     const recipeImg = document.createElement('img');
     recipeImg.setAttribute('src', searchForKey(data, 'thumbnailUrl'));
