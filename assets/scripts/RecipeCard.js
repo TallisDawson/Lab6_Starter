@@ -101,48 +101,84 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
     
 
-    // Part 1 Expose - TODO
+    // Part 1 Expose
     
     console.log(data);
     
     const recipeImg = document.createElement('img');
-    recipeImg.setAttribute('src', 'img_Src.png');
+    recipeImg.setAttribute('src', searchForKey(data, 'thumbnailUrl'));
     recipeImg.setAttribute('alt', 'Recipe Title');
     card.appendChild(recipeImg);
 
+
+    
+    
     const title = document.createElement('p');
     title.setAttribute('class','title')
 
     const titleLink = document.createElement('a');
-    titleLink.setAttribute('href', 'link to article');
-    titleLink.appendChild(document.createTextNode("Title"));
+    titleLink.setAttribute('href', getUrl(data));
+    titleLink.appendChild(document.createTextNode(searchForKey(data, 'headline')));
 
     title.appendChild(titleLink);
     card.appendChild(title);
 
-
+    
     const organize = document.createElement('p');
     organize.setAttribute('class', 'organization');
-    organize.appendChild(document.createTextNode("The Chef's Organization"));
+    organize.appendChild(document.createTextNode(searchForKey(data, 'name')));
+    card.appendChild(organize);
 
+
+    //Rating section
     const rating = document.createElement('div');
     rating.setAttribute('class', 'rating');
 
     const ratingNum = document.createElement('span');
-    ratingNum.appendChild(document.createTextNode('5'));
-
     const starsImg = document.createElement('img');
-    //starsImg.setAttribute('src', '/assets/images/icons/5-star.svg');
-    starsImg.src = '/assets/images/icons/5-star.svg';
-    starsImg.setAttribute('alt', '5 Stars');
+    const reviewNum = document.createElement('span');
 
-    
-    rating.appendChild(starsImg);
-    rating.appendChild(ratingNum);
-    organize.appendChild(rating);
-    card.appendChild(organize);
-    
+    const count = searchForKey(data, 'ratingCount');
+    //Test to make sure there are ratings
+    if(count) {
 
+      
+
+      let stars = searchForKey(data, 'ratingValue');
+      ratingNum.appendChild(document.createTextNode(stars));
+
+      stars = Math.round(stars);
+      starsImg.src = '/assets/images/icons/' + stars + '-star.svg';
+      starsImg.setAttribute('alt', stars + ' Stars');
+
+      reviewNum.appendChild(document.createTextNode('(' + searchForKey(data, 'ratingCount') + ')'));
+      rating.appendChild(ratingNum);
+      rating.appendChild(starsImg);
+      rating.appendChild(reviewNum);
+
+    }
+    else {
+      reviewNum.appendChild(document.createTextNode('No Reviews'));
+      rating.appendChild(reviewNum);
+    }
+    card.appendChild(rating);
+
+    //Time
+    const recipeTime = document.createElement('time');
+    let time = convertTime(searchForKey(data, 'totalTime'));
+    recipeTime.appendChild(document.createTextNode(time));
+
+    card.appendChild(recipeTime);
+
+    //Ingredient List
+    const ingredientList = document.createElement('p');
+    ingredientList.setAttribute('class', 'ingredients');
+
+    const fetchedIngredients = createIngredientList(searchForKey(data, 'recipeIngredient'));
+    const ingredients = document.createTextNode(fetchedIngredients);
+    ingredientList.appendChild(ingredients);
+    
+    card.appendChild(ingredientList);
 
     this.shadowRoot.append(styleElem, card);
   }
