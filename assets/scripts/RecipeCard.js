@@ -148,7 +148,8 @@ class RecipeCard extends HTMLElement {
       ratingNum.appendChild(document.createTextNode(stars));
 
       stars = Math.round(stars);
-      starsImg.src = '/assets/images/icons/' + stars + '-star.svg';
+      // changed from '/assets' to 'assets'
+      starsImg.src = 'assets/images/icons/' + stars + '-star.svg';
       starsImg.setAttribute('alt', stars + ' Stars');
 
       reviewNum.appendChild(document.createTextNode('(' + searchForKey(data, 'ratingCount') + ')'));
